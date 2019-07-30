@@ -1,0 +1,49 @@
+#container{
+width: 80%;
+margin: 0 auto;
+}
+.title{
+    background-color: lightgrey;
+    height:40px;
+    display: flex;
+    align-items: center;
+}
+.title h3{
+    margin-left: 20px;
+}
+thead{
+background-color: lightgray;
+}
+th{
+    font-size: 13px;
+}
+#form-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:40px;
+}
+.text-box{
+    display: flex;
+    justify-content: space-between;
+    height:20px;
+}
+.go-button{
+    margin-left:-40px;
+}
+.check-in-btn{
+    background-color:rgba(39, 93, 228, 0.878);
+    height:30px;
+    width:80px;
+    font-size: 12px;
+    color: white;
+    border-radius: 5px;
+}
+.check-out-btn{
+    background-color: rgba(23, 118, 8, 0.509);
+    height:30px;
+    width: 80px;
+    font-size:12px;
+    color: white;
+    border-radius: 5px;
+}
