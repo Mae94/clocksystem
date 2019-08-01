@@ -1,0 +1,56 @@
+#container{
+    width: 80%;
+    margin: 0 auto;
+    }
+    .title{
+        background-color: lightgrey;
+        height:40px;
+        display: flex;
+        align-items: center;
+    }
+    .title h3{
+        margin-left: 20px;
+    }
+    thead{
+    background-color: lightgray;
+    }
+    
+    #form-box{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height:100px;
+    }
+    
+    .select-list{
+        height:30px;
+        width: 200px;
+    }
+    .lastname ,.firstname{
+        height:30px;
+        width: 300px;
+    }
+    #name-text{
+        display: flex;
+        justify-content: space-between;
+    }
+    .go-button{
+     height:30px;
+     border-radius: 5px;
+    }
+    .check-in-btn{
+        background-color:#1c7cd5;
+        height:30px;
+        width:80px;
+        font-size: 12px;
+        color: white;
+        border-radius: 5px;
+    }
+    .check-out-btn{
+        background-color: #5cb85c;
+        height:30px;
+        width: 80px;
+        font-size:12px;
+        color: white;
+        border-radius: 5px;
+    }
