@@ -17,13 +17,13 @@
     
     #form-box{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
         height:100px;
     }
     
     .select-list{
-        height:30px;
+        height:40px;
         width: 200px;
     }
     .lastname ,.firstname{
@@ -34,6 +34,9 @@
         display: flex;
         justify-content: space-between;
         width: 400px;
+    }
+    th,td{
+        text-align: center;
     }
     
     .go-button{

@@ -26,8 +26,8 @@
         height:30px;
         width: 200px;
     }
-    th{
-        vertical-align: middle;
+    th,td{
+        text-align:center;
     }
     .lastname ,.firstname{
         height:30px;
