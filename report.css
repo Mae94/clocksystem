@@ -33,7 +33,9 @@
     #name-text{
         display: flex;
         justify-content: space-between;
+        width: 400px;
     }
+    
     .go-button{
      height:30px;
      border-radius: 5px;
